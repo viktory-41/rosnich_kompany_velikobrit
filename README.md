@@ -46,10 +46,10 @@ frequency = df.groupby('CustomerID')['InvoiceNo'].nunique()
 # Monetary: сумма всех покупок
 monetary = df.groupby('CustomerID')['TotalPrice'].sum()
 ```
-<img width="1187" height="789" alt="download" src="https://github.com/user-attachments/assets/b1be58a5-62c1-46df-a90e-220d5af9f4d0" />
+
 <img width="1787" height="989" alt="download" src="https://github.com/user-attachments/assets/406da923-5e4b-41f6-a42d-f9943fa1f18c" />
 
 ### 3. Анализ сегменто
 Распределение клиентов по 5 сегментам взависимости от итогового сформированного рейтинга. А также просмотр количества клиентов в процентном соотношении и рекомендации для их удержания.
 <img width="1434" height="740" alt="download" src="https://github.com/user-attachments/assets/e6c1284e-d3e9-497f-b2d8-e3b62a3d0c6a" />
-
+<img width="1187" height="789" alt="download" src="https://github.com/user-attachments/assets/b1be58a5-62c1-46df-a90e-220d5af9f4d0" />
